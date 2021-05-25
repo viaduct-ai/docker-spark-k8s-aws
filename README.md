@@ -28,3 +28,5 @@ Apache Spark on Kubernetes on AWS experience until someone develops a Spark
 DataSourceV2 API-compliant Glue Data Catalog implementation (instead of
 this absolute hack of patching hive and building spark from source)
 
+Many thanks to @bbenzikry for open sourcing their solution to build Spark 3 +
+Glue compatible docker images. This project builds on their work.
