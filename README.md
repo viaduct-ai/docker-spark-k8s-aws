@@ -4,6 +4,13 @@ Build for an Apache Spark on kubernetes-ready docker image configured with notab
 * An up-to-date AWS SDK capable of supporting [ IRSA ](https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts/)
 * [ AWS Glue Data Catalog client for Hive Metastore ](https://github.com/viaduct-ai/aws-glue-data-catalog-client-for-apache-hive-metastore)
 
+## Use the Docker Image
+This build publishes images to docker hub: https://hub.docker.com/r/viaductoss/spark
+
+```
+docker pull viaductoss/spark:3.1.1_hadoop-3.2.0_hive-2.3.7_k8s_aws
+```
+
 ## Build the Docker Image
 Builds are managed using https://earthly.dev
 
