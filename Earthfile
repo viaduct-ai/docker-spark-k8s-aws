@@ -7,7 +7,7 @@ ARG maven_version=3.6.3
 ARG scala_version=2.12
 ARG aws_java_sdk_version=1.11.797
 
-ARG container_repo=viaductai/spark
+ARG container_repo=viaductoss/spark
 ARG container_tag_prefix="${latest:+${latest}}spark-${spark_version}_hadoop-${hadoop_version}_hive-${hive_version}_k8s_aws"
 ARG container_tag_suffix="-${EARTHLY_TARGET_TAG_DOCKER}"
 ARG container_tag="${container_tag_prefix}${container_tag_suffix}"
